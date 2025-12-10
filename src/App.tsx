@@ -1,7 +1,7 @@
 import { Scoreboard } from './components/molecules/Scoreboard/Scoreboard';
-import { GridContainer } from './components/organisms/GridContainer/GridContainer';
-import { GridItem } from './components/organisms/GridItem/GridItem';
-import { Stack } from './components/organisms/Stack/Stack';
+import { GridContainer } from './components/templates/GridContainer/GridContainer';
+import { GridItem } from '@templates/GridItem/GridItem';
+import { Stack } from './components/templates/Stack/Stack';
 
 export const App = () => {
     return (
