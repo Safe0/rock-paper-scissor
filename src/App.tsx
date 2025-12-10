@@ -1,5 +1,25 @@
-function App() {
-    return <div>Hello world !</div>;
-}
+import { Scoreboard } from './components/molecules/Scoreboard/Scoreboard';
+import { GridContainer } from './components/organisms/GridContainer/GridContainer';
+import { GridItem } from './components/organisms/GridItem/GridItem';
+import { Stack } from './components/organisms/Stack/Stack';
 
-export default App;
+export const App = () => {
+    return (
+        <GridContainer spacing={2}>
+            <GridItem xs={12} lg={4}>
+                <Scoreboard
+                    title="PvP"
+                    label1="Player 1"
+                    label2="Player 2"
+                    score1={0}
+                    score2={0}
+                />
+            </GridItem>
+            <GridItem xs={12} lg={8}>
+                <Stack justifyContent="center" alignItems="center">
+                    <h2>In progress</h2>
+                </Stack>
+            </GridItem>
+        </GridContainer>
+    );
+};

@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+
+  /* enable align & justify behavior */
+  justify-content: var(--justify, start);
+  align-items: var(--align, stretch);
+}

@@ -1,0 +1,15 @@
+.item {
+  grid-column: span var(--xs);
+
+  @media (min-width: 600px) {
+    grid-column: span var(--sm);
+  }
+
+  @media (min-width: 900px) {
+    grid-column: span var(--md);
+  }
+
+  @media (min-width: 1200px) {
+    grid-column: span var(--lg);
+  }
+}
