@@ -21,7 +21,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "@templates/*": ["src/components/templates/*"]
+      "@templates/*": ["src/components/templates/*"],
+      "@atoms/*": ["src/components/atoms/*"]
     }
   },
   "include": ["src"],
