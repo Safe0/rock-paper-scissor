@@ -1,0 +1,15 @@
+@mixin panel($bg, $border) {
+  padding: 20px;
+  margin: 0 20px;
+  border: 7px solid $border;
+  border-radius: 12px;
+  background: $bg;
+}
+
+.p1 {
+  @include panel(lightblue, darkblue);
+}
+
+.p2 {
+  @include panel(pink, darkred);
+}
