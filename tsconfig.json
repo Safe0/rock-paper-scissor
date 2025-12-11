@@ -22,7 +22,9 @@
     "noFallthroughCasesInSwitch": true,
     "paths": {
       "@templates/*": ["src/components/templates/*"],
-      "@atoms/*": ["src/components/atoms/*"]
+      "@tools/*": ["src/tools/*"],
+      "@atoms/*": ["src/components/atoms/*"],
+      "@organisms/*": ["src/components/organisms/*"]
     }
   },
   "include": ["src"],

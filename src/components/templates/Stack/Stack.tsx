@@ -1,6 +1,6 @@
 import styles from './Stack.module.scss';
 
-interface StackProps {
+interface StackProps extends React.HTMLAttributes<HTMLDivElement> {
     children: React.ReactNode;
     direction?: 'row' | 'column';
     spacing?: number;
